@@ -5,7 +5,7 @@ module.exports = (req, res, next) => { // eslint-disable-line
   const { authorization } = req.headers;
 
   if (!authorization || !authorization.startsWith('Bearer')) {
-    return next();
+    next(new MustBeAuthorization('Необходима авторизация'));
   }
 
   const token = authorization.replace('Bearer ', '');
