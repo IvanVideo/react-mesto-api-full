@@ -50,7 +50,7 @@ class ApiAuth {
 
 }
 const config = {
-    baseUrl: 'http://api.ivan.mesto.nomoredomains.club',
+    baseUrl: 'https://api.ivan.mesto.nomoredomains.club',
     headers: { 'Content-Type': 'application/json' }
 }
 

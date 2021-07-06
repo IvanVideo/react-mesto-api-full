@@ -147,7 +147,7 @@ class Api {
 }
 
 const config = {
-    url: 'http://api.ivan.mesto.nomoredomains.club',
+    url: 'https://api.ivan.mesto.nomoredomains.club',
     headers: {
       authorization: '9ac744e3-19c4-448e-a05d-54fc2dcca7b2',
       'Content-Type': 'application/json'
