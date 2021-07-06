@@ -1,0 +1,8 @@
+.popup__button_invalid {
+ opacity: 0.2;
+}
+
+.popup__button_invalid:hover {
+    cursor: default;
+    background-color: #000;
+}

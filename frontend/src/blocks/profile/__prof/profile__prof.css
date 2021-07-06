@@ -1,0 +1,6 @@
+.profile__prof {
+    display: flex;
+    padding-top: 26px;
+    max-width: 215px;
+    margin: 0 auto;
+}

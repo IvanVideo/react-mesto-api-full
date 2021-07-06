@@ -1,0 +1,30 @@
+.profile__link {
+    width: 24px;
+    height: 24px;
+    background: url(../../../images/Edit_Button.png) no-repeat 50% 50%;
+    border: none;
+    background-size: contain;
+    padding: 0;
+    margin-left: 18px;
+}
+
+.profile__link:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 1024px) {
+    .profile__link {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .profile__link {
+        margin: 0;
+        position: absolute;
+        right: 35px;
+        top: 200px;
+    }
+}

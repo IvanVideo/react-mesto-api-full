@@ -1,0 +1,16 @@
+.profile_position_content {
+    margin-top: 40px;
+    display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+    .profile_position_content {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .profile_position_content {
+        margin-top: 42px;
+    }
+}

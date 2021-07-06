@@ -1,0 +1,16 @@
+.element__heart-like {
+    background-image: url(../../../images/heart.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    border: none;
+    padding: 0;
+    width: 19.3px;
+    height: 18px;
+    transition: 0.5s;
+}
+
+.element__heart-like:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}

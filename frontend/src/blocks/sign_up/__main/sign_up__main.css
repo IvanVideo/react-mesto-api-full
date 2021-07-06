@@ -1,0 +1,7 @@
+.sign_up__main {
+    max-width: 358px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}

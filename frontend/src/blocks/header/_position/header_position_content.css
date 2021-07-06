@@ -1,0 +1,19 @@
+.header_position_content {
+    margin: 0 auto;
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .header_position_content {
+        margin-top: 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header_position_content {
+        margin-top: 28px;
+    }
+}

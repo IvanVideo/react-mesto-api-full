@@ -1,0 +1,30 @@
+.profile__button {
+    width: 150px;
+    height: 50px;
+    background-color: #000;
+    background: url(../../../images/Vector_copy.png) no-repeat 50% 50%;
+    border: 2px solid white;
+    display: flex;
+}
+
+.profile__button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 1024px) {
+    .profile__button {
+        width: 150px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .profile__button {
+        width: 282px;
+        height: 50px;
+        position: inherit;
+        margin-top: 33px;
+    }
+}

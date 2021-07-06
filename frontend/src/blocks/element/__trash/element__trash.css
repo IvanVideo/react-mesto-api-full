@@ -1,0 +1,16 @@
+.element__trash {
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    width: 19.3px;
+    height: 18px;
+    padding: 0;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.element__trash:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 0.5s;
+}
